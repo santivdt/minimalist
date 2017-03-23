@@ -1,0 +1,65 @@
+html
+    head
+        title Minimalisme Coach - Santi van den Toorn
+        script.
+            try {
+                Typekit.load({async: true});
+            } catch (e) {
+            }
+        link(rel='stylesheet', type='text/css', href='styles/styles.css')
+        link(href='http://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css')
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css', type='text/css')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        script.
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                            (i[r].q = i[r].q || []).push(arguments)
+                        }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-96121135-1', 'auto');
+            ga('send', 'pageview');
+    body
+        .container
+            .row
+                .col.s0.m1
+                .col.s12.m5.right-align
+                    p.heading Nooit meer opruimen
+                    p.text.no-top-margin Veel 'professional organizers' focussen op het organiseren van je spullen, het doen van achterstallige administratie etc. Wat hierbij vergeten wordt is het kritisch kijken naar bezit en de reden hiervoor. Stel je voor, een leven met alleen maar spullen die je echt gelukkig maken en daarnaast een leeg hoofd om je te focussen op de dingen die je echt belangrijk vindt! Klinkt te mooi om waar te zijn? Nee hoor, voor iedereen is dit met een klein steuntje in de rug binnen handbereik. Ik help je graag dit ideale leven te bereiken via een persoonlijk coaching traject. Neem je even contact op?
+                    p.text
+                        a.writing-minimalisme(href="https://blendle.com/getpremium/item/bnl-oneworld528-20170303-143950", target="_blank") Lees hier mijn essay 'Hoe word ik minimalist'
+                    p.social-icons
+                        a#linkedin-icon(
+                        href='https://nl.linkedin.com/in/santi-van-den-toorn-99378020',
+                        target='new'
+                        )
+                            i.fa.fa-linkedin(aria-hidden='true')
+                        a#mail-icon(
+                        href='mailto:santivdt@gmail.com?subject=Ik wil een beter leven!')
+                            i.fa.fa-envelope-o(aria-hidden='true')
+                        span.tooltip
+                            a#instagram-icon(
+                            href='https://www.instagram.com/ikbensanti/',
+                            target='_blank'
+                            )
+                                i.fa.fa-camera-retro(aria-hidden='true')
+                        span.tooltip
+                            a#cv-icon(
+                            href='http://www.santivandentoorn.com/CV_Santi.pdf',
+                            target='_blank'
+                            )
+                .col.s12.m5.img
+                    img.photo-santi(src="img/minimalist.jpg")
+
+
+
+
+        script(type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js')
+        script(src='js/main.js')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js')
